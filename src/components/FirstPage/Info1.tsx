@@ -1,6 +1,6 @@
 import React from 'react';
 import images from '../../assets/images';
-import Timer from '../Timer';
+import Timer from './Timer';
 export default function Info1() {
 return <section>
     <div className="contents">
@@ -20,7 +20,7 @@ return <section>
         </div>
         <div className="timer">
             <h3 className='fw-normal pt-3 fs-3'>Time is our only limitation.</h3>
-            {/* <Timer /> */}
+            <Timer />
         </div>
 </section>
 ;
