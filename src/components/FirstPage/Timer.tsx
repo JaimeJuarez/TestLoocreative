@@ -9,14 +9,11 @@ export default function Timer() {
             TimerActives = hora
             return TimerActives
         }
-const TimerActive = () =>{
-    return getTime();
-}
         ;
         return(
             <div className="timer">
                 <h1>
-                   {TimerActive()}
+                   {getTime()}
                 </h1>
             </div>
         )
